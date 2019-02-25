@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <script src="assets/code.js"></script>
+    <title>Heading</title>
+  </head>
+  <body>
+    <br>
+    <a href="index.html"><img class="logo" src="assets/final_v1.png" alt=""></a>
+    <br>
+    <div class="container main">
+  <div class="jumbotron" id="holder">
+    <h1 class='main_heading'>Customer Predictor Model</h1>
+    <h3>This is sample model which will work only if correct value is provided in input</h3>
+    <br>
+    <div class="instructions">
+      <h2>Instructions: </h2>
+      <p>1. Please fill details about the customer</p>
+      <p>2. Sample values to be filled is:834;Germany;Female;68;9;130169.27;0;1;93112
+</p>
+    </div>
+    <br>
+    <br>
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label class="control-label col-sm-2">CreditScore:</label>
+        <div class="col-sm-10">
+          <input  class="form-control" id="creditscore" placeholder=" Enter CreditScore" >
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" >Geography:</label>
+        <div class="col-sm-10">
+          <input  class="form-control" id="geography" placeholder=" Enter Geography" >
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" >Gender:</label>
+        <div class="col-sm-10">
+          <input class="form-control" id="gender" placeholder=" Enter Gender" >
+        </div>
+      </div>
+	  <div class="form-group">
+        <label class="control-label col-sm-2" >Age:</label>
+        <div class="col-sm-10">
+          <input  class="form-control" id="age" placeholder=" Enter Age" >
+        </div>
+      </div>
+	  <div class="form-group">
+        <label class="control-label col-sm-2" >Tenure:</label>
+        <div class="col-sm-10">
+          <input  class="form-control" id="tenure" placeholder=" Enter Tenure" >
+        </div>
+      </div>
+	  <div class="form-group">
+        <label class="control-label col-sm-2" >Balance:</label>
+        <div class="col-sm-10">
+          <input  class="form-control" id="balance" placeholder=" Enter Balance" >
+        </div>
+      </div>
+	  <div class="form-group">
+        <label class="control-label col-sm-2" >HasCrCard:</label>
+        <div class="col-sm-10">
+          <input  class="form-control" id="hascrcard" placeholder=" Enter HasCrCard" >
+        </div>
+      </div>
+	  <div class="form-group">
+        <label class="control-label col-sm-2" >IsActiveMember:</label>
+        <div class="col-sm-10">
+          <input  class="form-control" id="isactivemember" placeholder=" Enter IsActiveMember" >
+        </div>
+      </div>
+	  <div class="form-group">
+        <label class="control-label col-sm-2" >EstimatedSalary:</label>
+        <div class="col-sm-10">
+          <input  class="form-control" id="estimatedsalary" placeholder=" Enter EstimatedSalary" >
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" id="submit" class="button btn btn-default">Predict</button>
+        </div>
+      </div>
+    </form>
+    <h2 class="result"></h2>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <div class="footer-copyright text-center py-3">
+    <div class="bottom">
+      <p><a href="#">vkrntkmrsngh | Customer status Predictor</a></p>
+    </div>
+  </div>
+
+</footer>
+<!-- Footer -->
+
+
+  </body>
+</html>
